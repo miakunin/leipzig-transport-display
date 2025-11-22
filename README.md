@@ -244,6 +244,6 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 Questions? Open an issue or reach out!
 
-## ⭐ Star History
+## Star History
 
-If this project helped you, please consider giving it a star! ⭐
+If this project helped you, please consider giving it a star!
