@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  leipzig-display:
+    build: .
+    container_name: leipzig-transport-display
+    
+    # Privileged mode required for GPIO access
+    privileged: true
+    
+    # Access to /dev/mem for direct GPIO control
+    devices:
+      - /dev/mem:/dev/mem
+    
+    # Mount current directory for easy config updates
+    volumes:
+      - .:/app
+    
+    # Auto-restart policy
+    restart: unless-stopped
+    
+    # Use host network (no isolation needed)
+    network_mode: host
+    
+    # Environment variables (optional)
+    environment:
+      - TZ=Europe/Berlin  # Set your timezone
+      - PYTHONUNBUFFERED=1  # See logs immediately

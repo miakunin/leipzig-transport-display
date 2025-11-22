@@ -1,0 +1,10 @@
+# HTTP requests for transport API
+requests>=2.31.0
+
+# RGB LED Matrix library for Raspberry Pi
+# Install system-wide from: https://github.com/hzeller/rpi-rgb-led-matrix
+# This is just for reference - actual library is C++ with Python bindings
+# Install with: cd rpi-rgb-led-matrix/bindings/python && sudo python3 setup.py install
+
+# Optional: For development/testing
+python-dateutil>=2.8.2
