@@ -2,7 +2,7 @@
 
 Real-time departure display for Leipzig buses and trams on a **64x32 RGB LED Matrix** powered by Raspberry Pi.
 
-![Display Photo](images/display_photo.jpg)
+![Display Photo]([images/display_photo.jpg](https://github.com/miakunin/leipzig-transport-display/blob/main/images/display_photo.png))
 
 ## Features
 
